@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": "./",
+			"folder_exclude_patterns": ["build"],
+			"file_exclude_patterns": ["*.qrc"]
+		}
+	],
+	 "build_systems":
+    [
+        {
+            "name": "Handmade",
+            "working_dir": "$project_path",
+            "cmd": ["$project_path/build.bat"]
+        }
+    ]
+}
